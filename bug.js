@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `useLinking` hook with a deep link that includes query parameters.  The hook doesn't correctly parse the query parameters, resulting in an unexpected value or an error.
